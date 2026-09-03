@@ -1,0 +1,21 @@
+entry LIST
+.extern W
+MAINisfdgisdjmgmsdgklmsdklgmkljsdfgsdsdf: add r3, LIST
+LOOP: prn #485435352562363
+lea W, r6
+inc r6, r7
+mov r3, K
+sub r1, r4
+bne END                                                                         
+cmp K, #ABC
+bne %END
+dec W
+.entry MAIN
+jmp %LOOP
+add L3, L3
+END: stop
+1STR: .string "abcd
+LIST: .data 6, -9.3
+.data -100
+K: .data 31
+.extern L3
